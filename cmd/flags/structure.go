@@ -1,15 +1,9 @@
 package flags
 
 var Structure = map[string]interface{}{
-	".github": map[string]interface{}{
-		"workflows": map[string]interface{}{
-			"go-test.yml": nil,
-			"release.yml": nil,
-		},
-	},
 	"cmd": map[string]interface{}{
 		"api": map[string]interface{}{
-			"main.go": nil,
+			"main.go": "template",
 		},
 		"web": map[string]interface{}{},
 	},
@@ -49,7 +43,7 @@ var Structure = map[string]interface{}{
 	},
 	"pkg": map[string]interface{}{
 		"middleware": map[string]interface{}{
-			"auth.go": nil,
+			"auth.go": "template",
 		},
 	},
 	"utils":        map[string]interface{}{},
