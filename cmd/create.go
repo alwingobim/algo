@@ -8,7 +8,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/algo/cmd/flags"
+	"github.com/alwingobim/algo/cmd/flags"
 	"github.com/spf13/cobra"
 )
 

@@ -1,6 +1,6 @@
 package main
 
-import "github.com/algo/cmd"
+import "github.com/alwingobim/algo/cmd"
 
 func main() {
 	cmd.Execute()
