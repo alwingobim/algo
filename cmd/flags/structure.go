@@ -9,12 +9,12 @@ var Structure = map[string]interface{}{
 	},
 	"internal": map[string]interface{}{
 		"config": map[string]interface{}{
-			// "app.go":       nil,
-			// "config.go":    nil,
-			// "fiber.go":     nil,
-			// "database.go":  nil,
-			// "logrus.go":    nil,
-			// "validator.go": nil,
+			"app.go":       "template",
+			"config.go":    "template",
+			"fiber.go":     "template",
+			"database.go":  "template",
+			"logrus.go":    "template",
+			"validator.go": "template",
 		},
 		"domain": map[string]interface{}{
 			"User.go": "template",
